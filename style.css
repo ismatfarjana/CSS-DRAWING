@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+}
+
+/* .heading {
+  color: red;
+} */
+
+.sun {
+  height: 8vh;
+  width: 4vw;
+  background-color: yellow;
+  border-radius: 50%;
+  position: fixed;
+  left: 50vw;
+  top: 20vh;
+}
+
+.sky {
+  height: 50vh;
+  width: 100vw;
+  background-color: cyan;
+  border-bottom-style: solid;
+  position: relative;
+}
+
+.ground {
+  height: 50vh;
+  width: 100vw;
+  background-color: #efc58d;
+  border-bottom-style: solid;
+  position:fixed;
+}
+
+.tree {
+  height: 40vh;
+  width: 1vw;
+  background-color: #bc5e00;
+  position: fixed;
+  top:10vw;
+  left: 30vw
+}
+
+.leaves {
+  height: 15vh;
+  width: 12vw;
+  background-color: #78f430;
+  border-radius: 50%;
+  position: fixed;
+  top: 20vh;
+  left: 25vw;
+}
+
+.river {
+	width: 1;
+	height: 0;
+	border-left: 2vw solid transparent;
+	border-right: 2vw solid transparent;
+	border-top: 50px solid blue;
+ 
+}
